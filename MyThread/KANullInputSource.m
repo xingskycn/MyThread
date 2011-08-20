@@ -16,7 +16,9 @@
 @synthesize source = source_;
 
 - (void)dealloc {
-    CFRelease(source_);
+    if (source_) {
+        CFRelease(source_);
+    }
     [super dealloc];
 }
 
