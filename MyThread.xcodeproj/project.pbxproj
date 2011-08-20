@@ -23,6 +23,8 @@
 		6E20EA1F13FED95800925B96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E20EA1D13FED95800925B96 /* InfoPlist.strings */; };
 		6E20EA2113FED95800925B96 /* MyThreadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6E20EA2013FED95800925B96 /* MyThreadTests.h */; };
 		6E20EA2313FED95800925B96 /* MyThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20EA2213FED95800925B96 /* MyThreadTests.m */; };
+		6E20EA2E13FF974400925B96 /* KANullInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20EA2D13FF974400925B96 /* KANullInputSource.m */; };
+		6E20EA3113FFBBDA00925B96 /* KAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E20EA3013FFBBDA00925B96 /* KAThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		6E20EA1E13FED95800925B96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E20EA2013FED95800925B96 /* MyThreadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThreadTests.h; sourceTree = "<group>"; };
 		6E20EA2213FED95800925B96 /* MyThreadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThreadTests.m; sourceTree = "<group>"; };
+		6E20EA2C13FF974400925B96 /* KANullInputSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KANullInputSource.h; sourceTree = "<group>"; };
+		6E20EA2D13FF974400925B96 /* KANullInputSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KANullInputSource.m; sourceTree = "<group>"; };
+		6E20EA2F13FFBBDA00925B96 /* KAThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAThread.h; sourceTree = "<group>"; };
+		6E20EA3013FFBBDA00925B96 /* KAThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				6E20EA0813FED95700925B96 /* MyThreadViewController.m */,
 				6E20EA0A13FED95700925B96 /* MyThreadViewController.xib */,
 				6E20E9F913FED95700925B96 /* Supporting Files */,
+				6E20EA2C13FF974400925B96 /* KANullInputSource.h */,
+				6E20EA2D13FF974400925B96 /* KANullInputSource.m */,
+				6E20EA2F13FFBBDA00925B96 /* KAThread.h */,
+				6E20EA3013FFBBDA00925B96 /* KAThread.m */,
 			);
 			path = MyThread;
 			sourceTree = "<group>";
@@ -268,6 +278,8 @@
 				6E20E9FF13FED95700925B96 /* main.m in Sources */,
 				6E20EA0313FED95700925B96 /* MyThreadAppDelegate.m in Sources */,
 				6E20EA0913FED95700925B96 /* MyThreadViewController.m in Sources */,
+				6E20EA2E13FF974400925B96 /* KANullInputSource.m in Sources */,
+				6E20EA3113FFBBDA00925B96 /* KAThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
