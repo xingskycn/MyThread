@@ -2,6 +2,8 @@
 
     // you may make thread.
     NSThread *other = [[KAThread alloc] init];
+    // and start thread.
+    [other start];
 
     // you can invoke selector on other thread.
     [self performSelector:@selector(hello:) onThread:other withObject:@"hello, world" waitUntilDone:NO];
