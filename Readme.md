@@ -1,10 +1,10 @@
 # NSThread with CFRunLoop
 
-// you may make thread.
-NSThread *other = [[KAThread alloc] init];
+    // you may make thread.
+    NSThread *other = [[KAThread alloc] init];
 
-// you can invoke selector on other thread.
-[self performSelector:@selector(hello:) onThread:other withObject:@"hello, world" waitUntilDone:NO];
+    // you can invoke selector on other thread.
+    [self performSelector:@selector(hello:) onThread:other withObject:@"hello, world" waitUntilDone:NO];
 
 
 # copyright
