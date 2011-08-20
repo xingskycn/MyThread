@@ -18,9 +18,9 @@
     // インプットソースがひとつも無いとランループは即時終了するので
     // ダミーのインプットソースを追加しておく。
     [[[[KANullInputSource alloc] init] addToCurrentRunLoop] release];
-    
+
     CFRunLoopRun();
-    
+
     [pool drain];
 }
 
